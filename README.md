@@ -2,3 +2,8 @@
 #Import libraries
 ##test
 
+## Pearson correlation coefficient
+
+## Distribution
+
+## Calories distribution between gender
