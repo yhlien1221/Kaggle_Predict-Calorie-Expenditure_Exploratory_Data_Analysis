@@ -17,10 +17,10 @@ The dataset provides physiological and activity-related measurements with the go
 - **Age**
 - **Height**
 - **Weight**
-- **Duration** (minutes)
-- **Heart Rate** (bpm)
-- **Body Temperature** (??C)
-- **Calories** (target)
+- **Duration**
+- **Heart Rate**
+- **Body Temperature**
+- **Calories**
 
 For this competition, the evaluation metric is **Root Mean Squared Logarithmic Error (RMSLE)**, which penalizes large differences on a relative (logarithmic) scale and naturally handles skewness in the target variable.
 
@@ -38,7 +38,7 @@ Key steps and findings from the EDA include:
 Based on EDA insights, new features were created to better capture physiological and activity-related effects:
 
 - **BMI**: To consolidate Height and Weight and reduce multicollinearity
-- **Interaction terms**: E.g., HeartRate ?? Duration, capturing combined effects
+- **Interaction terms**: E.g., HeartRate * Duration, capturing combined effects
 - **Polynomial terms**: E.g., squared Duration, to account for nonlinear relationships
 - **Log transformations**: Evaluated for skewed variables, but Calories were left untransformed since RMSLE inherently handles skewness
 
