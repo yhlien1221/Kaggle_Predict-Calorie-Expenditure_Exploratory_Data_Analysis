@@ -1,4 +1,4 @@
-# Predicting Calorie Expenditure ??? EDA and Feature Engineering Demo
+# Predicting Calorie Expenditure - EDA and Feature Engineering
 
 This repository demonstrates how to perform **exploratory data analysis (EDA)** and **feature engineering** using the dataset from [Kaggle Playground Series - Season 5, Episode 5](https://www.kaggle.com/c/playground-series-s5e5).
 
@@ -41,12 +41,4 @@ Based on EDA insights, new features were created to better capture physiological
 - **Interaction terms**: E.g., HeartRate ?? Duration, capturing combined effects
 - **Polynomial terms**: E.g., squared Duration, to account for nonlinear relationships
 - **Log transformations**: Evaluated for skewed variables, but Calories were left untransformed since RMSLE inherently handles skewness
-
-
-
-## ???? References
-
-- [Kaggle Playground Prediction Competition - Predict Calorie Expenditure](https://www.kaggle.com/c/playground-series-s5e5)
----
-
 
